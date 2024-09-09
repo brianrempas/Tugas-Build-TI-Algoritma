@@ -3,7 +3,7 @@
 
 int main() {
     int da[10];  
-    int largestNumber = 0;
+    int largestNumber = -9999;
     for(int i = 0; i < 10; i++) {
         scanf("%d", &da[i]);  
         if(da[i]>largestNumber){
